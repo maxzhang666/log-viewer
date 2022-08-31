@@ -1,5 +1,5 @@
 {
-    "name": "jyil/log-viewer",
+    "name": "maxzhang666/log-viewer",
     "description": "log viewer",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
@@ -7,8 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "jyiL",
-            "email": "sal597685816@live.cn"
+            "name": "maxzhang666",
+            "email": "q373884384@gmail.com"
         }
     ],
     "require": {
