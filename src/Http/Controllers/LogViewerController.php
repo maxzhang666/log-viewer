@@ -24,7 +24,7 @@ class LogViewerController extends Controller
             ->title('日志查看')
             ->header($viewer->getFilePath())
             ->description('Description')
-            ->body(Admin::view('jyil.log-viewer::logs', [
+            ->body(Admin::view('maxzhang666.log-viewer::logs', [
                 'logs'      => $viewer->fetch($offset),
                 'logFiles'  => $viewer->getLogFiles(),
                 'fileName'  => $viewer->file,

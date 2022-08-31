@@ -6,7 +6,7 @@
 ## 安装
 
 ```
-    composer require jyil/log-viewer
+    composer require maxzhang666/log-viewer
 ```
 
 

@@ -3,7 +3,7 @@
     "description": "log viewer",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/jyil/log-viewer",
+    "homepage": "https://github.com/maxzhang666/log-viewer",
     "license": "MIT",
     "authors": [
         {
