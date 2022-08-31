@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller;
 
 class LogViewerController extends Controller
 {
-    public function index(Content $content, $file = null, Request $request)
+    public function index(Content $content, Request $request, $file = null)
     {
         if ($file === null) {
             $file = (new LogViewer())->getLastModifiedLog();

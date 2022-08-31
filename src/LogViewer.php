@@ -172,7 +172,7 @@ class LogViewer
         $f = fopen($this->filePath, 'rb');
 
         if ($seek) {
-            fseek($f, abs($seek));
+            fseek($f, abs(intval($seek)));
         } else {
             fseek($f, 0, SEEK_END);
         }
